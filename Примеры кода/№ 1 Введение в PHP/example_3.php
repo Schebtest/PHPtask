@@ -12,7 +12,7 @@
 		// print без скобок
 		print "Hello, User!<br />";
 		// print со скобками
-		print("Изучаем PHP с pechora_proger<br>")
+		print("Изучаем PHP с omsk_proger<br>")
 	?> 
 
 	<!-- 
