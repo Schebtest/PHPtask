@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Программирование на языке PHP</title>
+</head>
+<body>
+	<h1>Операторы</h1>
+	<h2>Операторы и выражения часть 2</h2>
+	<hr>
+	<h2>Оператор подавления ошибок</h2>
+
+	<?php
+		// error_reporting(0);
+
+		// пытаемся подключить файл которого не существует
+		// ошибка не критическая
+		$content1 = @include "content1.txt";
+
+		// пытаемся подключить файл которого не существует
+		// ошибка критическая
+		$content2 = @require "content2.txt";
+
+		// пытаемся сделать то, что делать нельзя (сложить число и строку)
+		// ошибка критическая
+		$res = @(2 + 'z6');  
+		echo '$res = ', $res;
+	?>
+
+	<footer align="center">
+		<h3>Веб-разработка | Профессионалы | Демоэкзамен</h3>
+		<a href="https://vk.com/pechora_pro" target="_blank">pechora_PRO</a>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Программирование на языке PHP</title>
+</head>
+<body>
+	<h1>Операторы</h1>
+	<h2>Операторы и выражения часть 1</h2>
+	<hr>
+	<h2>Арифметические операторы</h2>
+
+	<?php
+		echo "8 + 2 = ", 8 + 2; // 10, сложение
+		echo "<p>";
+		echo "10 - 2 = ", 10 - 2; // 6, вычитание
+		echo "<p>";
+		echo "6 * 2 = ", 6 * 2; // 16, умножение
+		echo "<p>";
+		echo "9 / 2 = ", 9 / 2; // 4, деление
+		echo "<p>";
+		echo "11 % 2 = ", 11 % 2; // 0, деление по модулю
+		echo "<p>";
+		echo "8 ** 2 = ", 8 ** 2; // 64, возведение в степень
+	?>
+
+	<footer align="center">
+		<h3>Веб-разработка | Профессионалы | Демоэкзамен</h3>
+		<a href="https://vk.com/pechora_pro" target="_blank">pechora_PRO</a>
+	</footer>
+</body>
+</html>
