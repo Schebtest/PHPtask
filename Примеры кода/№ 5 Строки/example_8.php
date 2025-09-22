@@ -30,9 +30,6 @@
 		echo  'Порядочный человек - это тот, кто делает гадости без удовольствия (С.Довлатов).';
 	?>
 		
-	<footer align="center">
-		<h3>Веб-разработка | Профессионалы | Демоэкзамен</h3>
-		<a href="https://vk.com/pechora_pro" target="_blank">pechora_PRO</a>
-	</footer>
+
 </body>
 </html>

@@ -14,9 +14,6 @@
 		echo "Hello, User!";
 	?>
 	
-	<footer align="center">
-		<h3>Веб-разработка | Профессионалы | Демоэкзамен</h3>
-		<a href="https://vk.com/pechora_pro" target="_blank">pechora_PRO</a>
-	</footer>
+
 </body>
 </html>

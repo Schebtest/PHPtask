@@ -25,9 +25,6 @@
 		echo "He drank some juice made of ${juice}s.<p>";
 	?>
 	
-	<footer align="center">
-		<h3>Веб-разработка | Профессионалы | Демоэкзамен</h3>
-		<a href="https://vk.com/pechora_pro" target="_blank">pechora_PRO</a>
-	</footer>
+
 </body>
 </html>
