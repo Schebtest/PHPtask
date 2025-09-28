@@ -18,7 +18,7 @@
 		$user["email"] = "pretty-woman@gmail.com";
 		$user["general_experience"] = 9;
 		$user["edu_experience"] = 7;
-		$user["city"] = "г. Печора";
+		$user["city"] = "г. Омск";
 
 		echo "<table border=1>
 				<tr>
